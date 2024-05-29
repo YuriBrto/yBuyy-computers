@@ -1,0 +1,62 @@
+.main-header {    
+    padding: 10px 10px ;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.main-header__title {    
+    font-size: 80px;
+    letter-spacing: -1.5px;    
+}
+
+.main-header__title--blue {
+    color: blue;
+    color: rgb(0, 0, 0);
+    font-size:100px;
+}
+
+.main-header__title--orange {
+    color: orange;
+    color: rgb(60, 6, 255);
+    font-size:100px;
+}
+
+.main-header__menu ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.main-header__menu a {
+    padding: 10px 10px;
+    color: gray;
+    font-weight: 400;
+    font-size: 22px;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.main-header__menu a:hover {
+    background-color: blue;
+    color: #ffffff;
+}
+
+.container-menu {
+    display: flex;
+    flex-direction: column;
+  
+    row-gap: 20px;
+    flex: 1;
+}
+
+.badge-carrinho {
+    background-color: darkblue;
+    padding: 5px 10px;    
+    border-radius: 4px;
+    color: white;
+}
+
